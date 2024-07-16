@@ -6,7 +6,8 @@ export default function Header() {
                 <ul className='flex space-x-4'>
                     <li><a href='/'>Home</a></li>
                     <li><a href='/exercises'>Exercises</a></li>
-                    <li><a href='/workouts'>Workouts</a></li>                    
+                    <li><a href='/exercises/add'>Add Exercise</a></li>
+                    <li><a href='/workouts'>Workouts</a></li>
                 </ul>
             </nav>
         </header>

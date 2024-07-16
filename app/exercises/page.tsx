@@ -4,8 +4,8 @@ const exercises = await getAllExercises();
 
 export default function ExercisesPage() {
     return (
-        <>
-            <h1>yasss exercises</h1>
+        <>            
+            <h2>Exercises</h2>
             <ExerciseTable exercises={exercises} />
         </>
     );
